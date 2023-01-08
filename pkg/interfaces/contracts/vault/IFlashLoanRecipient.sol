@@ -16,8 +16,8 @@ pragma solidity >=0.7.0 <0.9.0;
 
 // Inspired by Aave Protocol's IFlashLoanReceiver.
 
-import "../solidity-utils/openzeppelin/IERC20.sol";
-
+//import "../solidity-utils/openzeppelin/IERC20.sol";
+import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
 interface IFlashLoanRecipient {
     /**
      * @dev When `flashLoan` is called on the Vault, it invokes the `receiveFlashLoan` hook on the recipient.
