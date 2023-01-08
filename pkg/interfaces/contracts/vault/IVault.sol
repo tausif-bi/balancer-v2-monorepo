@@ -14,7 +14,8 @@
 
 pragma experimental ABIEncoderV2;
 
-import "../solidity-utils/openzeppelin/IERC20.sol";
+//import "../solidity-utils/openzeppelin/IERC20.sol";
+import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
 import "../solidity-utils/helpers/IAuthentication.sol";
 import "../solidity-utils/helpers/ISignaturesValidator.sol";
 import "../solidity-utils/helpers/ITemporarilyPausable.sol";
